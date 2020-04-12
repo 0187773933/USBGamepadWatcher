@@ -19,5 +19,5 @@ fi
 #echo "$NextCommitNumber"
 git add .
 git commit -m "$NextCommitNumber"
-git remote add origin git@github.com:raspi-chromecast-box/USBGamepadService.git
+git remote add origin git@github.com:raspi-chromecast-box/USBGamepadWatcher.git
 git push origin master

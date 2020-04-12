@@ -1,5 +1,8 @@
 # USB Gamepad Watcher
 
+## https://www.amazon.com/gp/product/B00XHRIKLE
+## https://www.amazon.com/gp/product/B01MRWL6DW
+
 ### Apparently it goes up to 31
 ### https://www.kernel.org/doc/Documentation/input/input.txt
 ```

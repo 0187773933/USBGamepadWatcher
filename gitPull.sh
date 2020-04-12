@@ -7,5 +7,5 @@ git config user.name "raspi-chromecast-box"
 git config user.email "raspiccbox03@gmail.com"
 ssh-add -k /Users/morpheous/.ssh/githubraspiccbox3
 
-git remote add origin git@github.com:raspi-chromecast-box/USBGamepadService.git
+git remote add origin git@github.com:raspi-chromecast-box/USBGamepadWatcher.git
 git pull origin master
