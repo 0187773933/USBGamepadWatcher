@@ -71,8 +71,8 @@ def run_read_loop():
 
 
 def try_run_block( options ):
-	for i in range( number_of_tries ):
-		attempt = options[ "function_reference" ]()
+	for i in range( options[ 'number_of_tries' ] ):
+		attempt = options[ 'function_reference' ]()
 		if attempt is not False:
 			return attempt
 		print( f"Couldn't Run '{ options[ 'task_name' ] }', Sleeping for { str( options[ 'sleep_inbetween_seconds' ] ) } Seconds" )
