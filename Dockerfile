@@ -12,9 +12,9 @@ RUN apk add py3-pip
 RUN pip3 install requests
 RUN pip3 install evdev
 
-COPY event_files.tar.gz /home/
 RUN mkdir /dev/input/
-RUN tar -xvf /home/event_files.tar.gz -C /dev/input/
+#COPY event_files.tar.gz /home/
+#RUN tar -xvf /home/event_files.tar.gz -C /dev/input/
 
 COPY JoyStickInput.py /home/
 ENTRYPOINT [ "python3" , "/home/JoyStickInput.py" ]
