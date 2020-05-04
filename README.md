@@ -30,6 +30,7 @@ sudo docker build -t alpine-button-watcher .
 ## Docker Run Command
 ```
 sudo docker run -dit --restart='always' \
+--name 'alpine-button-watcher' \
 --privileged -v /dev/input/:/dev/input/ \
 --network host \
 alpine-button-watcher
